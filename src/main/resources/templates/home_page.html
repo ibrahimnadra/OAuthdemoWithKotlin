@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Welcome to Our App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #777;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to Our Application : OAuthDemoWithKotlin</h1>
+    <p>This is the home page of our application.</p>
+
+    <p>User Information:</p>
+
+    <p>Login ID: <span th:text="${loginId}"></span></p>
+
+    <p>If you are seeing this page, it means you have successfully authenticated using OAuth.</p>
+
+    <p>Feel free to explore the features and functionality of our app!</p>
+</div>
+</body>
+</html>

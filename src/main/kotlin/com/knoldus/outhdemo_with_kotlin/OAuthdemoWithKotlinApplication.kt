@@ -1,4 +1,4 @@
-package com.knoldus.OAuthdemoWithKotlin
+package com.knoldus.outhdemo_with_kotlin
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
