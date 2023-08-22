@@ -1,4 +1,4 @@
-package com.knoldus.OAuthdemoWithKotlin
+package com.knoldus.oauthdemo_with_kotlin
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
